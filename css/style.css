@@ -89,9 +89,11 @@ h1, h2, h3, h4, h5, h6{
         margin-top: 0% !important;
     }   
 
-    .text-center{
+    .team-name{
         text-align: start !important;
         padding-left: 18% !important;
+        background-color: red;
+        color: red;
     }
 
     .info-section{
@@ -129,6 +131,35 @@ h1, h2, h3, h4, h5, h6{
         margin-top: -2.8% !important;
         padding-left: 22% !important;
     }
+
+    h3{
+        text-align: center !important;
+    }
+}
+
+@media screen and (max-width: 425px ){
+    .w-25{
+        width: 50% !important;
+        margin-top: -7.8% !important;
+    }
+    .zeus-top{
+        margin-top: -14% !important;
+    }
+    .border{
+        width: 40% !important;
+    }
+    .container{
+        width: 95% !important;
+    }
+    .w-50{
+        margin-top: -3.5% !important;
+        padding-left: 22% !important;
+    }
+
+    .info-section p,
+    button{
+        margin-left: -3.5% !important;
+    }
 }
 
 @media screen and (max-width: 320px ){
@@ -147,5 +178,20 @@ h1, h2, h3, h4, h5, h6{
 
     h3{
         font-size: 18px !important;
+    }
+
+    .info-section p,
+    button{
+        margin-left: -9% !important;
+    }
+    
+    .info-section p,
+    button{
+        margin-left: -9% !important;
+    }
+    .memberSection h5{
+        padding-left: -10% !important;
+    }h5{
+        padding-left: -10% !important;
     }
 }

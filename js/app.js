@@ -134,7 +134,7 @@ let teamMates = [
                 <div class="row">
                     <div class="pic-section col-12 col-lg-6 col-md-12 ">
                         <img src="./images/${e.img}.jpg" alt="" class="pt-1 img-fluid">
-                        <h5 class="pb-3 px-1 bg-primary p-2 text-center text-white"><span class="fw-bold">${e.fullName}</span></h5>
+                        <h5 class="team-name pb-3 px-1 bg-primary p-2 text-lg-center text-white"><span class="fw-bold">${e.fullName}</span></h5>
                     </div>
                     <div class="info-section col-12 col-lg-6 col-md-6 pt-4 w-50">
                         <p><span class="fw-bold fst-italic px-1 w-100"> Best Movie:</span> ${e.bestmovie}</p>
